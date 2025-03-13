@@ -1,36 +1,45 @@
+/* Impostazioni generali */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background: url('https://source.unsplash.com/1600x900/?restaurant,food') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
 }
 
+/* Contenitore principale */
 .menu-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Titoli */
 h1 {
+    color: #8B0000;
+    font-size: 28px;
+}
+
+h2 {
     color: #333;
+    margin-top: 20px;
+    font-size: 22px;
 }
 
-.menu-item {
-    padding: 15px;
-    margin: 10px;
-    background: #28a745;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    display: block;
+/* Stile piatti */
+.dish {
     font-size: 18px;
-    transition: background 0.3s;
+    font-weight: bold;
+    color: #000;
+    margin: 10px 0;
 }
 
-.menu-item:hover {
-    background: #218838;
+.description {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
 }
