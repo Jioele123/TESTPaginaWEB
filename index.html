@@ -1,30 +1,84 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menù del Ristorante</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEW LOOK MORALES</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menu-container">
-        <h1>🍽️ Menù del Ristorante 🍷</h1>
-        
-        <h2>Primi Piatti</h2>
-        <p class="dish">🍝 <strong>Paccheri alla Pulcinella</strong></p>
-        <p class="description">(melanzane, pomodoro e ricotta)</p>
-
-        <p class="dish">🍝 <strong>Casarecce con crema di zucchine e grana</strong></p>
-
-        <h2>Secondo Piatto</h2>
-        <p class="dish">🥩 <strong>Straccetti di suino all’Aglianico</strong></p>
-        <p class="description">spadellati</p>
-
-        <h2>Contorno</h2>
-        <p class="dish">🥔 <strong>Patate al forno</strong></p>
-
-        <h2>Dessert</h2>
-        <p class="dish">🍰 <strong>Dessert della casa</strong></p>
+  <header>
+    <div class="container">
+      <h1>NEW LOOK MORALES</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#listino">Listino prezzi</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Stile e cura dei capelli</h2>
+      <p>Semplicità e professionalità</p>
+    </div>
+  </section>
+
+  <section id="chi-siamo">
+    <div class="container">
+      <h2>Chi siamo</h2>
+      <p>NEW LOOK MORALES è un salone di parrucchiere specializzato in servizi per uomo, come tagli di capelli e barba, oltre a offrire una vasta gamma di prodotti per la cura dei capelli e della barba. Situato in Campania, il nostro team di professionisti è sempre pronto a soddisfare le esigenze dei nostri clienti con stile e qualità.</p>
+    </div>
+  </section>
+
+  <section id="servizi">
+    <div class="container">
+      <h2>Servizi</h2>
+      <ul>
+        <li>Taglio capelli uomo</li>
+        <li>Trattamenti barba</li>
+        <li>Colorazione capelli uomo</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="listino">
+    <div class="container">
+      <h2>Listino Prezzi</h2>
+      <p>Contattaci per ricevere il nostro listino aggiornato!</p>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <div class="container">
+      <h2>Contattaci</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="messaggio">Messaggio:</label>
+        <textarea id="messaggio" name="messaggio" required></textarea>
+
+        <button type="submit">Invia</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Creato con amore da NEW LOOK MORALES &copy; 2025</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
