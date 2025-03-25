@@ -166,3 +166,40 @@ body {
   display: block;
   border-radius: 10px;
 }
+
+
+.hero-contenuto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.hero-contenuto .hero-testo {
+  max-width: 500px;
+  color: #fff;
+}
+
+.chi-siamo-contenuto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.chi-siamo-testo {
+  max-width: 600px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero-contenuto, .chi-siamo-contenuto {
+    flex-direction: column;
+    text-align: center;
+  }
+}
