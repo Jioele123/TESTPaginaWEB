@@ -7,3 +7,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+
+function confermaInvio() {
+  alert('Grazie per averci contattato!');
+  return true;
+}

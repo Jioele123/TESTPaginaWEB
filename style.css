@@ -121,3 +121,22 @@ footer {
     padding: 60px 10px;
   }
 }
+
+.listino-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.listino-item h3 {
+  color: teal;
+  margin: 0 0 5px 0;
+}
+
+.listino-item .prezzo {
+  font-weight: bold;
+  color: teal;
+  white-space: nowrap;
+}

@@ -48,17 +48,51 @@
     </div>
   </section>
 
-  <section id="listino">
+<section id="listino">
+  <div class="container">
+    <h2>Listino prezzi</h2>
+    <div class="listino-item">
+      <div class="descrizione">
+        <h3>Taglio capelli uomo</h3>
+        <p>"Un taglio di capelli curato è la migliore forma di presentazione di un uomo sicuro e in linea con le ultime tendenze."</p>
+      </div>
+      <div class="prezzo">€ 12,00</div>
+    </div>
+    <hr>
+    <div class="listino-item">
+      <div class="descrizione">
+        <h3>Taglio capelli donna</h3>
+        <p>"Un taglio di capelli non solo cambia il look, ma può anche cambiare l'umore e la prospettiva di una donna."</p>
+      </div>
+      <div class="prezzo">€ 20,00</div>
+    </div>
+    <hr>
+    <div class="listino-item">
+      <div class="descrizione">
+        <h3>Barba e baffi</h3>
+        <p>"La barba e i baffi sono l'accessorio perfetto per un uomo che vuole esprimere la sua personalità e il suo stile senza dire una parola."</p>
+      </div>
+      <div class="prezzo">€ 5,00</div>
+    </div>
+    <hr>
+    <div class="listino-item">
+      <div class="descrizione">
+        <h3>Colore capelli</h3>
+        <p>"Il colore dei capelli è come la tela di un artista, ogni tonalità racconta una storia unica."</p>
+      </div>
+      <div class="prezzo">€ 30,00</div>
+    </div>
+  </div>
+</section>
     <div class="container">
       <h2>Listino Prezzi</h2>
       <p>Contattaci per ricevere il nostro listino aggiornato!</p>
     </div>
-  </section>
 
   <section id="contatti">
     <div class="container">
       <h2>Contattaci</h2>
-      <form action="mailto:gioele.morales@smartfabsolutions.it" method="POST" enctype="text/plain">
+<form id="contact-form" action="mailto:gioele.morales@smartfabsolutions.it" method="POST" enctype="text/plain">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="Nome" required>
 
@@ -68,7 +102,7 @@
         <label for="messaggio">Messaggio:</label>
         <textarea id="messaggio" name="Messaggio" required></textarea>
 
-        <button type="submit">Invia</button>
+<button type="submit" onclick="return confermaInvio();">Invia</button>
       </form>
     </div>
   </section>
